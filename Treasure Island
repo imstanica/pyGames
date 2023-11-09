@@ -1,0 +1,20 @@
+print("Welcome to Treasure Island.")
+print("Your mission is to find the treasure.") 
+#Write your code below this line 👇
+
+# Ask the user for the direction of the boat
+choice1 = input("Type 'left' or 'right': ")
+if choice1 == "left":
+  print("You chose left.")
+else:
+  choice2 = input("Type 'wait' or 'swim': ")
+  if choice2 == "swim":
+    print("You chose to swim. You dead")
+  else:
+    choice3 = input("Type 'blue' or 'yellow' or 'red': ")
+    if choice3 == "blue":
+      print("You chose blue. You dead")
+    elif choice3 == "yellow":
+      print("You chose yellow. You dead")
+    else:
+      print("You chose red. You WON")
